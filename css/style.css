@@ -3,7 +3,7 @@
 @font-face {
   font-family: "NextartBold";
   font-display: swap;
-  src: url("../fonts/NextartBold.woff") format("woff"), url("../fonts/NextartBold.woff2") format("woff2");
+  src: url("fonts/NextartBold.woff") format("woff"), url("fonts/NextartBold.woff2") format("woff2");
   font-weight: 600;
   font-style: bold;
 }
