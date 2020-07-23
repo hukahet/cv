@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "NextartBold";
+  font-family: "nextartbold";
   font-display: swap;
-  src: url("css/nexartbold.woff") format("woff"), url("css/nexartbold.woff2") format("woff2");
+  src: url("css/nextartbold.woff") format("woff"), url("css/nextartbold.woff2") format("woff2");
   font-weight: 600;
   font-style: bold;
 }
@@ -242,7 +242,7 @@ h6 {
   padding-top: 250px;
   padding-left: 30px;
   font-size: 40px;
-  font-family: NextartBold;
+  font-family: nextartbold;
   text-align: center;
 }
 
