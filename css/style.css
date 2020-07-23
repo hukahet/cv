@@ -3,7 +3,7 @@
 @font-face {
   font-family: "nextartbold";
   font-display: swap;
-  src: url("css/nextartbold.woff") format("woff"), url("css/nextartbold.woff2") format("woff2");
+  src: url("../fonts/nextartbold.woff") format("woff"), url("../fonts/nextartbold.woff2") format("woff2");
   font-weight: 600;
   font-style: bold;
 }
@@ -289,11 +289,11 @@ h6 {
 }
 
 .header__anton {
-  color: #FEBD33;
+  color: #febd33;
 }
 
 .header__cepi {
-  color: #FEBD33;
+  color: #febd33;
 }
 
 .wrapper {
