@@ -219,12 +219,8 @@ h6 {
 
 .header__body {
   position: relative;
-}
-
-.header__leftbar {
-  position: absolute;
-  left: 20px;
-  top: 30px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .header__container {
@@ -232,6 +228,27 @@ h6 {
   max-width: 1000px;
   margin: 0 auto;
   top: 200px;
+}
+
+.header__leftbar {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  text-align: end;
+}
+
+.header__selfimg:before {
+  content: "";
+  display: block;
+  height: 580px;
+  width: 230px;
+  position: absolute;
+  background-image: url("../img/icons/leftbar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 40px;
+  left: 0%;
+  float: left;
 }
 
 .header__selim {
@@ -436,6 +453,8 @@ h6 {
 .webp .menu__list li:nth-child(4):before{ background-image: url(../img/icons/track.webp); }
 
 .webp .menu__list li:nth-child(4):after{ background-image: url(../img/icons/bicon.webp); }
+
+.webp .header__selfimg:before{ background-image: url(../img/icons/leftbar.webp); }
 
 .webp .header__text1:before{ background-image: url(../img/Line1.webp); }
 
